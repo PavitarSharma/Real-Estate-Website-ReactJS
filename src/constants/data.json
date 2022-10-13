@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "image": "https://raw.githubusercontent.com/cristianmihai01/real-estate-main/main/src/assets/img/houses/house1lg.png",
+    "title": "Palm Harbor",
+    "address": "2699 Green Valley, Highland Lake, FL",
+    "price": "2095",
+    "beds": 3,
+    "bathrooms": 2,
+    "squareFit": "5*7",
+    "houses": "residental",
+    "date": "2020-12-29"
+  },
+
+  {
+    "id": 2,
+    "image": "https://raw.githubusercontent.com/cristianmihai01/real-estate-main/main/src/assets/img/houses/house2lg.png",
+    "title": "Beverly Springfield",
+    "address": "2821 Lake Sevila, Palm Harbor, TC",
+    "price": "2700",
+    "beds": 4,
+    "bathrooms": 3,
+    "squareFit": "8*10",
+    "houses": "residental",
+    "date": "2021-02-23"
+  },
+
+  {
+    "id": 3,
+    "image": "https://raw.githubusercontent.com/cristianmihai01/real-estate-main/main/src/assets/img/houses/house3lg.png",
+    "title": "Faulkner Ave",
+    "address": "909 Woodland St, Michigan, IN",
+    "price": "4550",
+    "beds": 4,
+    "bathrooms": 3,
+    "squareFit": "8*10",
+    "houses": "commerical",
+    "date": "2020-09-25"
+  },
+
+  {
+    "id": 4,
+    "image": "https://raw.githubusercontent.com/cristianmihai01/real-estate-main/main/src/assets/img/houses/house4lg.png",
+    "title": "Wooden Eve",
+    "address": "98 Talbot St. Bridgewater, SF",
+    "price": "6550",
+    "beds": 6,
+    "bathrooms": 4,
+    "squareFit": "12*15",
+    "houses": "land",
+    "date": "2021-05-01"
+  },
+
+  {
+    "id": 5,
+    "image": "https://raw.githubusercontent.com/cristianmihai01/real-estate-main/main/src/assets/img/houses/house5lg.png",
+    "title": "Faulkner Ave",
+    "address": "28 Westport Dr. Warminster, CF",
+    "price": "10550",
+    "beds": 10,
+    "bathrooms": 8,
+    "squareFit": "20*20",
+    "houses": "luxury",
+    "date": "2020-11-09"
+  },
+
+  {
+    "id": 6,
+    "image": "https://raw.githubusercontent.com/cristianmihai01/real-estate-main/main/src/assets/img/houses/house6lg.png",
+    "title": "Palm Harbor",
+    "address": "5412 Talbot St. Bridge, WD",
+    "price": "11550",
+    "beds": 10,
+    "bathrooms": 8,
+    "squareFit": "20*24",
+    "houses": "commerical",
+    "date": "2021-07-18"
+  },
+
+  {
+    "id": 7,
+    "image": "https://raw.githubusercontent.com/cristianmihai01/real-estate-main/main/src/assets/img/houses/house7lg.png",
+    "title": "Beverly Springfield",
+    "address": "5412 Talbot St. Bridge, SF",
+    "price": "8550",
+    "beds": 7,
+    "bathrooms": 3,
+    "squareFit": "14*28",
+    "houses": "land",
+    "date": "2020-09-12"
+  },
+
+  {
+    "id": 8,
+    "image": "https://raw.githubusercontent.com/cristianmihai01/real-estate-main/main/src/assets/img/houses/house8lg.png",
+    "title": "Wooden Eve",
+    "address": "2699 Green Valley, Highland Lake, FL",
+    "price": "2895",
+    "beds": 4,
+    "bathrooms": 2,
+    "squareFit": "6*7",
+    "houses": "luxury",
+    "date": "2021-04-10"
+  },
+
+  {
+    "id": 9,
+    "image": "https://raw.githubusercontent.com/cristianmihai01/real-estate-main/main/src/assets/img/houses/house9lg.png",
+    "title": "Beverly Springfield",
+    "address": "2821 Lake Sevila, Palm Harbor, TC",
+    "price": "2840",
+    "beds": 5,
+    "bathrooms": 3,
+    "squareFit": "8*10",
+    "houses": "residental",
+    "date": "2020-10-01"
+  },
+
+  {
+    "id": 10,
+    "image": "https://raw.githubusercontent.com/cristianmihai01/real-estate-main/main/src/assets/img/houses/house10lg.png",
+    "title": "Faulkner Ave",
+    "address": "929 Woodland St, Michigan, NY",
+    "price": "4250",
+    "beds": 6,
+    "bathrooms": 3,
+    "squareFit": "9*10",
+    "houses": "Land",
+    "date": "2020-12-22"
+  },
+
+  {
+    "id": 11,
+    "image": "https://raw.githubusercontent.com/cristianmihai01/real-estate-main/main/src/assets/img/houses/house11lg.png",
+    "title": "Palm Harbor",
+    "address": "859 Woodland St, Michigan, CG",
+    "price": "6559",
+    "beds": 7,
+    "bathrooms": 4,
+    "squareFit": "12*14",
+    "houses": "commercial",
+    "date": "2021-04-04"
+  },
+
+  {
+    "id": 12,
+    "image": "https://raw.githubusercontent.com/cristianmihai01/real-estate-main/main/src/assets/img/houses/house12lg.png",
+    "title": "Faulkner Ave",
+    "address": "909 Woodland St, Michigan, IN",
+    "price": "8550",
+    "beds": 8,
+    "bathrooms": 5,
+    "squareFit": "14*12",
+    "houses": "Luxury",
+    "date": "2021-03-21"
+  }
+]

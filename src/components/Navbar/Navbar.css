@@ -1,0 +1,155 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  height: 50px;
+  z-index: 10;
+  overflow-x: hidden;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.navbar__left {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.navbar__logo > span {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #191970;
+}
+
+.navbar__nav {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  gap: 40px;
+}
+
+.navbar__nav a {
+  color: #111;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.navbar__nav a:hover {
+  background-color: rgb(204, 232, 241);
+  padding: 6px 14px;
+  border-radius: 4px;
+  color: rgb(101, 9, 248);
+}
+
+.nav__active {
+  background-color: rgb(204, 232, 241);
+  padding: 6px 14px;
+  border-radius: 4px;
+  color: rgb(101, 9, 248) !important;
+}
+
+.navbar__navContainer {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.navbar__right {
+  padding-right: 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar__login-Button {
+  padding: 12px 20px;
+  background: transparent;
+  border: 1px solid rgb(199, 196, 196);
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #0a5ef9;
+  font-size: 16px;
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar__login-Button:hover {
+  background-color: #6050DC;
+  color: #fff;
+  border: none;
+}
+
+.navbar__signUp-Button {
+  padding: 12px 20px;
+  background: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: #6050DC;
+  color: #fff;
+  font-size: 16px;
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar__signUp-Button:hover {
+  background: transparent;
+  border: 1px solid rgb(199, 196, 196);
+  color: #0a5ef9;
+}
+
+.navbar__menu {
+  display: none;
+}
+
+.navbar__menuClose {
+  animation: animate 0.5s ease-in-out;
+
+  display: none;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(90deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  0% {
+    transform: rotate(90deg);
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar__nav {
+    display: none;
+  }
+
+  .navbar__menu {
+    display: block;
+    cursor: pointer;
+  }
+
+  .navbar__menuClose {
+    display: block;
+  }
+
+  .navbar__login-Button,
+  .navbar__signUp-Button {
+    display: none;
+  }
+}
